@@ -1,6 +1,8 @@
 import React from "react";
 import "./Home.css";
-import me from './assets/me.png';
+import me from "./assets/me.png";
+import { Link } from "react-router-dom";
+import Resumee from './assets/Resumee.pdf'
 const Home = () => {
   return (
     <div className="home">
@@ -12,27 +14,29 @@ const Home = () => {
         </h1>
 
         <p className="title">
-          Engineering Student | Aspiring Software Developer
+         Engineering Student | 2nd Year (CSE) | Aspiring Software Developer
         </p>
 
         <p className="description">
           I enjoy building responsive web applications, exploring modern
-          technologies, and contributing to open-source projects. I'm
-          passionate about learning, problem-solving, and creating
-          user-friendly digital experiences.
+          technologies, and contributing to open-source projects. I'm passionate
+          about learning, problem-solving, and creating user-friendly digital
+          experiences.
         </p>
 
         <div className="buttons">
-          <button>View Projects</button>
-          <button>Download Resume</button>
+          <Link to="/projects">
+            <button>View Projects</button>
+          </Link>
+
+          <a href={Resumee} download>
+            <button>Download Resume</button>
+          </a>
         </div>
       </div>
 
       <div className="home-image">
-        <img
-          src={me}
-          alt="Deepanshi"
-        />
+        <img src={me} alt="Deepanshi" />
       </div>
     </div>
   );

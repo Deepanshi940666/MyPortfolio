@@ -6,6 +6,11 @@ nav {
   /* border: 0.5rem solid #fca311; */
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 nav ul {
   list-style: none;
   display: flex;
