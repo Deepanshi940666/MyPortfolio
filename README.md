@@ -110,14 +110,6 @@ Icons     : React Icons
 
 ---
 
-# 📸 Preview
-
-<p align="center">
-<img src="YOUR_SCREENSHOT_LINK" width="900">
-</p>
-
----
-
 # 📁 Project Structure
 
 ```text
