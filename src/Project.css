@@ -18,7 +18,7 @@
 
 .project-card h2 {
   font-size: 3rem;
-  color: #14213d;
+  color:black;
   margin-bottom: 40px;
   font-weight: 800;
   letter-spacing: 2px;
@@ -43,6 +43,8 @@
   margin-bottom: 20px;
   font-weight: 800;
 }
+
+/* #c2185b */
 
 .project-desc {
   color: #555;
@@ -112,8 +114,8 @@
 
 .project-links a {
   text-decoration: none;
-  background: #14213d;
-  color: white;
+  /* background: #14213d;
+  color: white; */
   padding: 14px 30px;
   border-radius: 50px;
   font-weight: 700;
@@ -121,8 +123,7 @@
 }
 
 .project-links a:hover {
-  background: #fca311;
-  color: #14213d;
+  background: var(--btn-hover);
   transform: scale(1.08);
 }
 
@@ -166,4 +167,24 @@
   max-width: 650px;
   display: block;
   border-radius: 18px;
+}
+
+.project-light {
+  background: #14213d;
+  color: white;
+}
+
+.project-light:hover {
+  background: #fca311;
+  color: #14213d;
+}
+
+.project-dark {
+  background: #8BAE66;
+  color: #1B211A;
+}
+
+.project-dark:hover {
+  background: #EBD5AB;
+  color: #1B211A;
 }

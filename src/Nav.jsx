@@ -19,7 +19,19 @@ const Nav = ({
   footerBg,
   setFooterBg,
   FooterH1,
-  setFooterH1
+  setFooterH1,
+  ProCard,
+  setProCard,
+  projectHeading,
+  setProjectHeading,
+  projectText,
+  setProjectText,
+   projectBtnBg,
+  setProjectBtnBg,
+  projectBtnHover,
+  setProjectBtnHover,
+  contactCardBg,
+  setContactCardBg
 }) => {
   function funct(Bg) {
     console.log("fahhh");
@@ -70,20 +82,61 @@ const Nav = ({
       setBtn(e);
     }
 
-    if (footerBg== "#14213d") {
+    if (footerBg == "#14213d") {
       let e = "#628141";
       setFooterBg(e);
     } else if (footerBg == "#628141") {
       let e = "#14213d";
       setFooterBg(e);
     }
-    if (FooterH1== "#fca311") {
+    if (FooterH1 == "#fca311") {
       let e = "#1B211A";
       setFooterH1(e);
-    } else if (FooterH1== "#1B211A") {
+    } else if (FooterH1 == "#1B211A") {
       let e = "#fca311";
       setFooterH1(e);
     }
+    if (ProCard == "#c2185b") {
+      let e = "#8BAE66";
+      setProCard(e);
+    } else if (ProCard == "#8BAE66") {
+      let e = "#c2185b";
+      setProCard(e);
+    }
+
+    if (projectHeading === "#fca311") {
+      setProjectHeading("#a3b18a");
+    } else {
+      setProjectHeading("#fca311");
+    }
+
+    if (projectText === "#444") {
+      let e = "#fefae0";
+      setProjectText(e);
+    } else if (projectText === "#fefae0") {
+      let e = "#444";
+      setProjectText(e);
+    }
+
+    if (projectBtnBg === "#14213d") {
+  setProjectBtnBg("#8BAE66"); 
+} else {
+  setProjectBtnBg("#14213d"); 
+}
+
+if (projectBtnHover === "#fca311") {
+  setProjectBtnHover("#EBD5AB"); 
+} else {
+  setProjectBtnHover("#fca311"); 
+}
+
+if (contactCardBg === "#ffffff") {
+  let e = "#8BAE66";
+  setContactCardBg(e);
+} else if (contactCardBg === "#8BAE66") {
+  let e = "#ffffff";
+  setContactCardBg(e);
+}
   }
   return (
     <div>
@@ -93,7 +146,7 @@ const Nav = ({
             <Link to={"/"}>
               <h1
                 style={{
-                  color: textColor
+                  color: textColor,
                 }}
               >
                 PORTFOLIO OF DEEPS
