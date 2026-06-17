@@ -20,7 +20,7 @@
 
 # 🌐 Live Demo
 
-🔗 **Portfolio Website:** YOUR_PORTFOLIO_LINK
+🔗 **Portfolio Website:** https://deepanshi940666.github.io/MyPortfolio/
 
 🔗 **Repository:** https://github.com/Deepanshi940666/MyPortfolio
 
@@ -165,11 +165,11 @@ npm run dev
 
 # 🤝 Connect With Me
 
-📧 Email: [deepanshi102938@gmail.com](mailto:deepanshi102938@gmail.com)
+📧 Email: deepanshi102938@gmail.com
 
 💻 GitHub: https://github.com/Deepanshi940666
 
-💼 LinkedIn: YOUR_LINKEDIN_LINK
+💼 LinkedIn: https://www.linkedin.com/in/deepanshigupta940666/
 
 ---
 
