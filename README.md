@@ -1,17 +1,5 @@
 <div align="center">
 
-# 💫✨ Welcome to My Digital Universe ✨💫
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=700&size=35&pause=1000&color=FCA311&center=true&vCenter=true&width=900&lines=Hi+👋,+I'm+Deepanshi+Gupta;Frontend+Developer+⚛️;Engineering+Student+🎓;Open+Source+Enthusiast+🌟;Building+Beautiful+Web+Experiences+💻"/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FCA311&height=200&section=header&text=My%20Portfolio&fontSize=50&fontColor=ffffff"/>
-
-</div>
-
----
-
-<div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FCA311&height=250&section=header&text=My%20Portfolio&fontSize=55&fontColor=ffffff&animation=fadeIn"/>
 
 # ✨ Personal Portfolio Website ✨
@@ -204,4 +192,3 @@ npm run dev
 ### Made with ❤️ by Deepanshi Gupta
 
 </div>
-
